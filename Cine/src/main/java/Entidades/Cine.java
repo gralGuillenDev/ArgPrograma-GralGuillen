@@ -145,8 +145,6 @@ public class Cine {
     public void generarEspectadores(){
         //genero una cantidad de Espectadores random
         int usuarios = rdm.nextInt(48);
-        String [] nombres = {"Pedro","Juan","Ruth","Milena","Sol","Miguel","Lionel","Franco","Laura","Sofia"};
-        int [] dineros = {50,25,34,67,25,65,32,10,43,54,43,22,21,23,19,18,21,23,34,54,15,12};
         //Creo Espectadores con un nombre y efectivo random la cantidad de veces que salio arriba
         for(int i=0;i<usuarios;i++){
             String name = Nombres.randomNombre().name();
